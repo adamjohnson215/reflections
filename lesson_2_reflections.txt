@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+	When you initialize a repository, git establishes a file for all the version history metadata (.git). This is needed to maintain all the pertinent information about your files.
+	
+	We’ve introduced a few new concepts since we last revisited our concept map.
+
+	    git init
+	    git add
+	    git status
+	    staging area
+	    working directory
+	
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area is different from the working directory and the repository in that it doesn't perform any of the functions that either of these two area do and that its sole purpose is to allow better control of version control.
