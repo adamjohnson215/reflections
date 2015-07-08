@@ -11,3 +11,18 @@ What happens when you initialize a repository? Why do you need to do it?
 	
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The staging area is different from the working directory and the repository in that it doesn't perform any of the functions that either of these two area do and that its sole purpose is to allow better control of version control.
+	
+How can you use the staging area to make sure you have one commit per logical change?
+	You can use the staging area to review all the changes that you are about to commit. If there are elements that you don't want to commit you can simply reset the staging area and working directory.
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Some situations when branches are helpful in keeping your history organized would be experimenting with a different version of the program, creating the program in a different language. Branches logically separate the different versions keeping the master "clean".
+	
+How do the diagrams help you visualize the branch structure?
+	Diagrams provide a visual representation of the branch structure of a given git repository, these help the user quickly understand the repository's structure and limitations.
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The result of merging two branches together is a branch that contains the most recent updates for both branches.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Git's automatic merging automates a very time-consuming and mundane task freeing up time for more important work. The service limits the full automation such that users must deconflict conflicting merges.
