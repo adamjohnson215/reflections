@@ -1,2 +1,29 @@
 When would you want to use a remote repository rather than keeping all your work local?
   If you wanted to share something immediately with contributors or if you're making very small changes to a file.
+
+We’ve introduced a few new concepts since we last revisited our concept map.
+
+    GitHub
+    git push
+    git pull
+    remote
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	Because changes in the GitHub repository may not make logical sense to your current workflow. Making updates manually give the programmer greater control over the workflow and ensure a functioning build prior to upload.
+	
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Forks are clones created through GitHub's platform. These are special clones that provide reference to the source material. Clones are copies of a repository that can be done locally or remotely. These are done using the git clone function. Branches are a version control tool within a repository separating the revisions logically to prevent corruption to the most "stable" version.
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	In case there is a connectivity disruption, contributors can continue working on the code despite the service disruption.
+	
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Collaboration without a service like GitHub would be more difficult because there would be a lot more overhead associated with commits such as meetings, revisions and the like. Although a service like GitHub has its limitations, it is a force multiplier when productivity is concerned.
+	
+	Here are the big new concepts we’ve introduced since we last revisited our concept map:
+
+	    fork
+	    fetch
+	    pull request
+	    fast-forward merge
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	You don't want to run the risk of breaking production level code by introducing new features or functions so using a new branch to do this work is better practice to avoid these types of breaks. If there is a bug in the production code, then making the changes directly into master may make more sense.
